@@ -10,4 +10,16 @@
 
 @implementation Contact
 
+@synthesize id;
+@synthesize firstName;
+@synthesize lastName;
+@synthesize company;
+@synthesize phone;
+
+- (NSString*) description{
+    return ;
+}
+
+
+
 @end
