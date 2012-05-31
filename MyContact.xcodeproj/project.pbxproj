@@ -21,6 +21,8 @@
 		D64B09D6157420F700BA611F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64B09D4157420F700BA611F /* InfoPlist.strings */; };
 		D64B09D9157420F700BA611F /* MyContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B09D8157420F700BA611F /* MyContactTests.m */; };
 		D64B09E8157425AD00BA611F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B09E7157425AD00BA611F /* Contact.m */; };
+		F6F4DE3E15744AEF00441EED /* Test in Resources */ = {isa = PBXBuildFile; fileRef = F6F4DE3D15744AEF00441EED /* Test */; };
+		F6F4DE4115744B8800441EED /* NoCommit in Resources */ = {isa = PBXBuildFile; fileRef = F6F4DE4015744B8800441EED /* NoCommit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		D64B09D8157420F700BA611F /* MyContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactTests.m; sourceTree = "<group>"; };
 		D64B09E6157425AD00BA611F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		D64B09E7157425AD00BA611F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		F6F4DE3D15744AEF00441EED /* Test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test; sourceTree = "<group>"; };
+		F6F4DE4015744B8800441EED /* NoCommit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NoCommit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				D64B09C3157420F700BA611F /* ViewController.m */,
 				D64B09B4157420F700BA611F /* Supporting Files */,
 				D64B09EA157425B500BA611F /* Entity */,
+				F6F4DE3D15744AEF00441EED /* Test */,
+				F6F4DE4015744B8800441EED /* NoCommit */,
 			);
 			path = MyContact;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 			files = (
 				D64B09B8157420F700BA611F /* InfoPlist.strings in Resources */,
 				D64B09C1157420F700BA611F /* MainStoryboard.storyboard in Resources */,
+				F6F4DE3E15744AEF00441EED /* Test in Resources */,
+				F6F4DE4115744B8800441EED /* NoCommit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
