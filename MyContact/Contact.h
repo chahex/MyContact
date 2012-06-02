@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseEntity.h"
 
-@interface Contact : NSObject
+@interface Contact : BaseEntity
 
 
 // declaration of object variable like NSString firstName won't work
@@ -19,5 +20,6 @@
 @property (readwrite) NSString* lastName;
 @property (readwrite) NSString* company;
 @property (readwrite) NSString* phone;
+
 
 @end

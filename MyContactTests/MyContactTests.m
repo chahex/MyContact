@@ -7,14 +7,19 @@
 //
 
 #import "MyContactTests.h"
+#import "MyContact.h"
 
-@implementation MyContactTests
+@implementation MyContactTests{
+    +NSString* @"Wholy";
+    
+}
 
 - (void)setUp
 {
     [super setUp];
     
     // Set-up code here.
+    
 }
 
 - (void)tearDown
@@ -27,6 +32,7 @@
 - (void)testExample
 {
     STFail(@"Unit tests are not implemented yet in MyContactTests");
+    
 }
 
 @end

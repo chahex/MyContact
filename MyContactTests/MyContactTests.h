@@ -10,4 +10,6 @@
 
 @interface MyContactTests : SenTestCase
 
+
+
 @end
