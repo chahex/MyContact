@@ -21,5 +21,7 @@
 @property (readwrite) NSString* company;
 @property (readwrite) NSString* phone;
 
+-(id)initWithNames:(NSString*)firstName lastName:(NSString*)lastName;
+
 
 @end

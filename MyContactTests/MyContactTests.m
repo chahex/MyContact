@@ -7,10 +7,11 @@
 //
 
 #import "MyContactTests.h"
-#import "MyContact.h"
+#import "Contact.h"
 
 @implementation MyContactTests{
-    +NSString* @"Wholy";
+    NSString *str;
+    Contact* _contact;
     
 }
 
@@ -19,19 +20,23 @@
     [super setUp];
     
     // Set-up code here.
+    _contact = [[Contact alloc] initWithNames:@"San" lastName:@"Zhang"];
+    
     
 }
 
 - (void)tearDown
 {
     // Tear-down code here.
-    
     [super tearDown];
 }
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in MyContactTests");
+    
+    STAssertNotNil(_contact,@"Should be initialized successfully");
+    //STassertNotNil(_contact.firstName, @"First name should not be nil");
+    STAssertEquals(_contact.firstName, @"San", @"Name not set successfully.");
     
 }
 

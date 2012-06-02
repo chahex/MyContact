@@ -39,9 +39,16 @@
         lastName:(NSString*)lastName
 
 {
+    // what if the super returns nil, but
+    // not assign super init to self?
+    Contact* tmp = self;
     // the not nil check
     if(self = [super init]) 
     {
+        self.firstName = firstName;
+        self.lastName = lastName;
+    }else {
+        self = tmp;
         self.firstName = firstName;
         self.lastName = lastName;
     }
