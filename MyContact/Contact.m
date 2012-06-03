@@ -17,7 +17,8 @@
 @synthesize phone;
 
 - (NSString*) description{
-    return ;
+    NSString* result = @"contact:[";
+    return [result stringByAppendingString:firstName];
 }
 
 

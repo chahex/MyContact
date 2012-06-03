@@ -15,9 +15,9 @@
 // due to "interface type can't be allocated statically
 
 @property (readwrite) int id;
-@property (readwrite) NSString* firstName;
-@property (readwrite) NSString* lastName;
-@property (readwrite) NSString* company;
-@property (readwrite) NSString* phone;
+@property (readwrite, strong) NSString* firstName;
+@property (readwrite, strong) NSString* lastName;
+@property (readwrite, strong) NSString* company;
+@property (readwrite, strong) NSString* phone;
 
 @end
