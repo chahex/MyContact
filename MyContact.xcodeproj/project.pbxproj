@@ -21,6 +21,7 @@
 		D64B09D6157420F700BA611F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64B09D4157420F700BA611F /* InfoPlist.strings */; };
 		D64B09D9157420F700BA611F /* MyContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B09D8157420F700BA611F /* MyContactTests.m */; };
 		D64B09E8157425AD00BA611F /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = D64B09E7157425AD00BA611F /* Contact.m */; };
+		F686AB221579B70000FF2901 /* BaseEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F686AB211579B70000FF2901 /* BaseEntity.m */; };
 		F6F4DE3E15744AEF00441EED /* Test in Resources */ = {isa = PBXBuildFile; fileRef = F6F4DE3D15744AEF00441EED /* Test */; };
 		F6F4DE4115744B8800441EED /* NoCommit in Resources */ = {isa = PBXBuildFile; fileRef = F6F4DE4015744B8800441EED /* NoCommit */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,8 @@
 		D64B09D8157420F700BA611F /* MyContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactTests.m; sourceTree = "<group>"; };
 		D64B09E6157425AD00BA611F /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		D64B09E7157425AD00BA611F /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		F686AB201579B70000FF2901 /* BaseEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEntity.h; sourceTree = "<group>"; };
+		F686AB211579B70000FF2901 /* BaseEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEntity.m; sourceTree = "<group>"; };
 		F6F4DE3D15744AEF00441EED /* Test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test; sourceTree = "<group>"; };
 		F6F4DE4015744B8800441EED /* NoCommit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NoCommit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -164,6 +167,8 @@
 		D64B09EA157425B500BA611F /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				F686AB201579B70000FF2901 /* BaseEntity.h */,
+				F686AB211579B70000FF2901 /* BaseEntity.m */,
 				D64B09E6157425AD00BA611F /* Contact.h */,
 				D64B09E7157425AD00BA611F /* Contact.m */,
 			);
@@ -283,6 +288,7 @@
 				D64B09BE157420F700BA611F /* AppDelegate.m in Sources */,
 				D64B09C4157420F700BA611F /* ViewController.m in Sources */,
 				D64B09E8157425AD00BA611F /* Contact.m in Sources */,
+				F686AB221579B70000FF2901 /* BaseEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
